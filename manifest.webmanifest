@@ -1,0 +1,55 @@
+{
+  "name": "Echomers — Karta Studio",
+  "short_name": "Echomers",
+  "description": "Aplikasi belanja Echomers by Karta Studio: logo, poster, banner, video, media sosial, website untuk UMKM. Dengan asisten Karta AI.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0B3F83",
+  "theme_color": "#0B3F83",
+  "categories": ["shopping", "business", "design"],
+  "icons": [
+    {
+      "src": "img/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/pwa-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Katalog",
+      "short_name": "Katalog",
+      "url": "./#/katalog",
+      "icons": [{ "src": "img/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Karta AI",
+      "short_name": "Karta AI",
+      "url": "./#/ai",
+      "icons": [{ "src": "img/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Pesanan",
+      "short_name": "Pesanan",
+      "url": "./#/pesanan",
+      "icons": [{ "src": "img/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
