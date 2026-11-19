@@ -3,7 +3,7 @@
  * Tujuan: aplikasi tetap bisa dibuka saat sinyal jelek atau offline,
  * dan aset yang sudah diunduh tidak diunduh ulang tiap pindah halaman.
  */
-const VERSION = 'echomers-v1'
+const VERSION = 'echomers-v2'
 const SHELL_CACHE = `${VERSION}-shell`
 const RUNTIME_CACHE = `${VERSION}-runtime`
 
